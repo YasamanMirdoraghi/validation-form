@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+      <!-- *******LINK BOOTSTRAP********* -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+      <!-- ***********LINK CSS********* -->
+      <link rel="stylesheet" href="master/scss/form.css">
+  
+      <!-- **********link icon********* -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  
+</head>
+<body>
+    <div class="container">
+        <div class="sign">
+            <form action="reg.php"onsubmit="return _Form()" class="_sign" name="form">
+                <h2 class="title">sign in </h2>
+                    <div class="input1"id="input1">
+                        <i class="bi bi-person-fill "id="Ic"></i>
+                        <input type="text" placeholder="Username" name="user">
+                        <label for=""id="lab1" class="lab1"></label>
+                    </div>
+                    <div class="input1" id="input2">
+                        <i class="bi bi-lock-fill"id="Ic2"></i>
+                        <input type="text" placeholder="password" name="pass">
+                        <label for=""id="lab2" class="lab2"></label>
+                    </div>
+                    <input type="submit" value="login" class="btn1">
+                    <p class="text1"> Or sign in with social platform</p>
+                    <div class="media">
+                        <a href="" class="icon">
+                            <i class="bi bi-google"></i>
+                        </a>
+                        <a href="" class="icon">
+                            <i class="bi bi-linkedin"></i>
+                      </a>
+                      <a href="" class="icon">
+                        <i class="bi bi-instagram"></i>
+                      </a>
+                      <a href="" class="icon">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    </div>
+            </form>
+
+            <form action="" class="_sign1" onsubmit="return _Form1()" name="formm">
+                <h2 class="title">sign up </h2>
+                    <div class="input1  _P" id="_IOP">
+                        <i class="bi bi-person-fill" id="_O"></i>
+                        <input type="text" placeholder="Username" name="userr">
+                        <label for=""id="lab3" class="lab3"></label>
+
+                    </div>
+
+                    <div class="input1"id="_IO">
+                        <i class="bi bi-envelope-fill"id="_L"></i>
+                        <input type="text" placeholder="Email"name="email">
+                        <label for=""id="lab4" class="lab4"></label>
+                    </div>
+
+                    <div class="input1"id="_U">
+                        <i class="bi bi-lock-fill"id="_F"></i>
+                        <input type="text" placeholder="password" name="pass1">
+                        <label for=""id="lab5" class="lab5"></label>
+                    </div>
+                    <input type="submit" value="sign up " class="btn1">
+                    <p class="text1"> Or sign in with social platform</p>
+                    <div class="media">
+                        <a href="" class="icon">
+                            <i class="bi bi-google"></i>
+                        </a>
+                        <a href="" class="icon">
+                            <i class="bi bi-linkedin"></i>
+                      </a>
+                      <a href="" class="icon">
+                        <i class="bi bi-instagram"></i>
+                      </a>
+                      <a href="" class="icon">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    </div>
+            </form>
+        </div>
+        
+        <div class="panel">
+            <div class=" pan1  left">
+                <div class="content">
+                    <h3>Member of Brand ? </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, officiis! Rem magnam doloribus laboriosam obcaecati perspiciatis, quibusdam incidun</p>
+                    <button class="btn1" id="signin">sign in </button>
+                </div>
+                <img src="master/img/signin.svg" alt="">
+            </div>
+
+            <div class=" pan1 right">
+                <div class="content">
+                    <h3>New to Brand ? </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, officiis! Rem magnam doloribus laboriosam obcaecati perspiciatis, quibusdam incidun</p>
+                    <button class="btn1" id="signup">sign up </button>
+                </div>
+                <img src="master/img/signup.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="master/js/form.js"></script>
+</html>
